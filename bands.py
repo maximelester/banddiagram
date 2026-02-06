@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import symbols as sy
 
-def MetalSemiconductorDiagram(ax, phi_m, phi_s, bandgap, f, name_m='Au', name_s=f'MoS{sy.subscript_2}', when='after', color_m=[1,0.9,0,0.5], bending_k=2, fontsize=8):
+def MetalSemiconductorDiagram(ax, phi_m, phi_s, bandgap, f, name_m='Au', name_s=f'MoS2', when='after', color_m=[1,0.9,0,0.5], bending_k=2, fontsize=8):
 	'''
 	Generates the diagram
 	'''
