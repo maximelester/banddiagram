@@ -22,5 +22,6 @@ MetalSemiconductorDiagram(ax, phi_m=5.2, phi_s=4.5, bandgap=2.5, f=0.1, name_m='
 MetalSemiconductorDiagram(ax, phi_m=5.2, phi_s=4.5, bandgap=2.5, f=0.1, name_m='Au', name_s=f'MoS{sy.subscript_2}', when='after', fontsize=10)
 ```
 
-<img width="612" height="676" alt="image" src="https://github.com/user-attachments/assets/7220d1b5-54f4-45ba-a759-a05358144f34" />
+<img width="612" height="676" alt="image" src="https://github.com/user-attachments/assets/d380d45e-3134-4a4d-b8ca-43165fba3daf" />
+
 
