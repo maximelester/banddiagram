@@ -2,14 +2,14 @@ Python script to generate basic metal/semiconductor band diagrams.
 Uses numpy and matplotlib libraries.
 
 The parameters are as follows:
-* phi_m: metal workfunction 
-* phi_s: semiconductor workfunction
-* bandgap: semiconductor band-gap
-* f: doping parameter (f = 0.5 to enfore E_F in the middle of the band-gap, above or below for n- and p-doped, respectively)
+* phi_m: metal workfunction (in eV)
+* phi_s: semiconductor workfunction (in eV)
+* bandgap: semiconductor band-gap (in eV)
+* f: doping parameter (f = 0.5 to enforce the Fermi level in the middle of the band-gap, above or below for n- and p-doped, respectively)
 * when: either "before" or "after" contacting (aligning Fermi levels and band-bending)
-* bending_k: effective bending sharpness
+* bending_k: effective bending sharpness (in inverse lateral units)
 
-And several cosmetic parameters. 
+And several cosmetic parameters. I encourage to tinker with the code to develop it further or to modify its look. Feel free to contact me if you have any questions at le.ster.maxime@ek.hun-ren.hu.
 
 Examples:
 
